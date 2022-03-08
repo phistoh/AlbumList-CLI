@@ -2,7 +2,7 @@ import sqlite3
 import argparse
 from colorama import init, Fore
 
-DATABASE = 'testdb.db'
+DATABASE = 'E:\Dropbox\Albenliste.db'
 
 def labelPrint(str, type=''):
 	if type == 'warning':
