@@ -98,7 +98,7 @@ if __name__ == "__main__":
 	
 	# actual database modification
 	if args.mediatype not in {'cd', 'vinyl', 'digital', 'cassette'}:
-		labelPrint('', 'error')
+		labelPrint('"' + args.mediatype + '" is an unknown media type.', 'error')
 		exit(0)
 	
 	if args.remove:
